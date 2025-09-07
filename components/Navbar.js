@@ -52,7 +52,7 @@ const Navbar = () => {
                 Try Now
               </button>
             </Link>
-            <a
+            <Link
               href="https://github.com/ChiragVasava/Bitlinks.git"
               target="_blank"
               rel="noopener noreferrer"
@@ -60,7 +60,7 @@ const Navbar = () => {
               <button className="bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-200 hover:shadow-md transform hover:-translate-y-0.5 border border-purple-400">
                 GitHub
               </button>
-            </a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
